@@ -1,0 +1,139 @@
+.fiLogin{
+    font-family: fantasy, Georgia;
+    font-size: 40px;
+    padding: 8px;
+    margin-top: 6%;
+}
+.fina {
+    font-family: fantasy, Georgia;
+    font-size: large;
+    padding: 8px;
+    display: inline-block;
+    margin-left: 7%;
+}
+.sidenav {
+    display: block;
+    float: left;
+    width: 20%;
+    background-color: ghostwhite;
+    min-height:100%;
+    border: 1px solid lavender;
+    position: absolute;
+}
+.sidenav li {
+    padding: 15px;
+    font-size: large;
+}
+.sidenav li:hover {
+    padding: 15px;
+    font-size: large;
+    color: crimson;
+    cursor: pointer;
+}
+.sidenav label {
+    padding: 15px;
+    font-size: large;
+}
+.noFolio {
+    text-align: center;
+    margin-top: 20%;
+}
+
+.name {
+    display: inline-block;
+    font-family: Georgia, sans-serif;
+    color: slategray;
+    margin-left: 3%;
+}
+.search {
+    display: block;
+    margin-right: auto;
+    margin-left: 5%;
+    width: 450px;
+    font-size: large;
+}
+.button:hover{
+    background-color:mediumpurple;
+}
+.tab{
+    color: blue;
+    padding: 7px;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.cash{
+    padding: 10px;
+    font-size: small;
+    overflow: auto;
+    background-color: ghostwhite;
+}
+.cash a {
+    color: blue;
+    cursor: pointer;
+}
+.cash a:hover{
+    color: deepskyblue;
+}
+.subTab {
+    color: blue;
+    padding-right: 3px;
+    cursor: pointer;
+    font-size: small;
+}
+.subTab:hover{
+     color: deepskyblue;
+ }
+.bySel {
+    font-size: 14px;
+    border-radius: 8px;
+    padding: 2px 10px;
+}
+.bySel:hover {
+    background-color: deepskyblue;
+    cursor: pointer;
+}
+.bsMenu {
+    background-color: lavender;
+    border-radius: 0 0 10px 10px;
+    padding: 2px;
+    z-index: 3;
+    position: absolute;
+    min-width: 70%;
+    margin-left: 15%;
+}
+.footer {
+    bottom:50px;
+    position:fixed;
+    z-index:150;
+    _position:absolute;
+    height:35px;
+    border-radius: 8px;
+    width: 79%;
+}
+.list{
+    color: darkgray;
+    margin-left: 15%;
+}
+.stklist{
+    color: darkgray;
+    margin-left: 15%;
+}
+.dropdown-content {
+    position: absolute;
+    background-color: ghostwhite;
+    min-width: 500px;
+    border: 1px solid #ddd;
+    z-index: 2000;
+    margin-left: 15%;
+}
+
+.dropdown-content tr:hover {
+    background-color: lightslategrey;
+    cursor: pointer;
+}
+
+.tooltip .tooltext {
+    font-size: smaller;
+    color: crimson;
+}
